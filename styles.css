@@ -1,0 +1,265 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+   
+}
+body{
+    background-color:#f5f6fa;
+}
+.main{
+    background-color:#c7ecee;
+    min-height:screen;
+    display: flex;
+    items:center;
+}
+.container{
+    width:380px;
+    height:750px;
+    position: absolute;
+    display:flex;
+    background:black;
+    border-radius:65px;
+    margin:6% 40% 0 40%;
+    z-index: 0;
+
+    
+}
+.wallpaper{
+    height:718px; 
+    width:350px;
+     border-radius: 50px;
+      margin-top:3.3%;
+     margin-left:4.3%;
+     z-index: 1;
+     filter: blur(13px);
+     -webkit-filter: blur(10px);
+}
+.notch{
+    height:0.9cm;
+    width:4.5cm;
+    top:0;
+    margin-left:25.9%;
+    position: absolute;
+    background:black;
+    border-radius:0px 0px 15px 15px;
+
+}
+.icons{
+    position: absolute;
+    z-index: 9;
+    width:1.2cm;
+    height:1px;
+    margin-top:.4cm;
+    margin-left:75%;
+}
+.iconline{
+    width:1.1cm;
+    height:2px;
+    background:white;
+    position:absolute;
+    border-radius:2px;
+    z-index: 10;
+    margin-top:9.7%;
+    margin-left:75.4%;
+}
+.lock{
+    position:absolute;
+    margin-top:20%;
+    margin-left:45.9%;
+    width:200%;
+}
+.time{
+    position: absolute;
+    color:white;
+    margin-top:35%;
+    margin-left:31%;
+
+}
+.time p{
+    font-size:60px;  
+}
+.time span{
+    font-weight:800;
+    font-size:17px;
+    text-space:2px;
+    margin-left: 13%;
+}
+.box1{
+    position:absolute;
+    width:7.5cm;
+    height:0.6cm;
+    margin-left :12%;
+    margin-top:80%;
+    background-color: rgba(150, 150, 150, 0.3);
+    border-radius:8px;
+}
+.box2{
+    position:absolute;
+    width:8.5cm;
+    height:1cm;
+    margin-left :8%;
+    margin-top:74%;
+    background-color: rgba(150, 150, 150, 0.3); 
+    
+    border-radius:8px;
+}
+.box3{
+    position:absolute;
+    width:9cm;
+    height:1.5cm;
+    margin-left :5%;
+    margin-top:67%;
+    background-color: rgba(150, 150, 150, 0.8);
+    border-radius:8px;
+}
+#message_img{
+    margin-left:10px;
+    margin-top:10px; 
+    position: absolute;
+}
+.box3 .p,span{
+    margin-left:33px;
+    margin-top:12px; 
+    font-size:12px;
+    font-weight:bold;
+    position:absolute;
+}
+.box3 span{
+    margin-left:88% !important; 
+}
+.box3 p{
+    margin-top:10%;
+    margin-left:4%;
+    font-weight:bold;
+    font-size:12px;
+}
+.insta_img{
+    margin-left:10px;
+    margin-top:10px; 
+    position: absolute;
+}
+.box_two .p1,span{
+    margin-left:33px;
+    margin-top:12px; 
+    font-size:12px;
+    font-weight:bold;
+    position:absolute;
+}
+.box_two span{
+    margin-left:84% !important; 
+}
+.box_two p{
+    margin-top:10%;
+    margin-left:4%;
+    
+    font-size:12px;
+
+}
+.box{
+    position:absolute;
+    width:9cm;
+    height:1.8cm;
+    margin-left:5%;
+    background-color: rgba(150, 150, 150, 0.8);
+    border-radius:8px;
+    
+}
+.box_two{
+    margin-top:89%;
+}
+.box_three{
+    margin-top:109.5%;
+   height:1.5cm !important;
+}
+.twitter_img{
+    margin-left:3px;
+    margin-top:5px; 
+    position: absolute;
+}
+.box_three .p2,span{
+    margin-left:60px;
+    margin-top:15px; 
+    font-size:12px;
+   
+    position:absolute;
+}
+.box_three span{
+    margin-left:84% !important; 
+}
+.box_three p{
+    margin-top:10%;
+    margin-left:17.5%;
+    font-weight:bold;
+    font-size:10px;
+
+}
+.box_four{
+    margin-top:127%;
+    height:1.5cm !important;
+}
+.podcasts_img{
+    margin-left:5px;
+    margin-top:9px; 
+    position: absolute;
+}
+.box_four .p3,span{
+    margin-left:60px;
+    margin-top:13px; 
+    font-size:12px;
+    font-weight:bold;
+    position:absolute;
+}
+.box_four span{
+    margin-left:84% !important; 
+}
+.box_four p{
+    margin-top:10%;
+    margin-left:17.5%;
+    font-weight:bold;
+    font-size:10px;
+
+}
+
+.belowicons{
+    width:80%;
+    height:2cm;
+    position:absolute;
+    margin-top:160%;
+    margin-left:10%;
+}
+.torch{
+    width:1.1cm;
+    height:1.1cm;
+    background-color:rgba(150,150,150,0.7);
+    border-radius:20px;
+    margin-left:8%;
+}
+.camera{
+    margin-left:70%;
+    position: absolute;
+    width:1.1cm;
+    height:1.1cm;
+    background-color:rgba(150,150,150,0.7);
+    border-radius:20px;
+}
+.bottomline{
+    position: absolute;
+   height: 4px;
+    width:3cm;
+    border-radius:2px;
+    background:white;
+    background-color:rgba(150,150,150,0.9);
+    margin-top:190%;
+    margin-left:35%;
+}
+.box_five{
+    position:absolute;
+    width:8.5cm;
+    height:.33cm;
+    margin-left :8%;
+    margin-top:141%;
+    background-color: rgba(150, 150, 150, 0.4); 
+    
+    border-radius:0px 0px 15px 15px;
+}
